@@ -18,7 +18,7 @@
     flex-direction: column;
 }
 
-.image {
+.header__image {
     position: absolute;
     z-index: 1;
     max-width: 550px;
@@ -144,4 +144,8 @@
     font-size: 20px;
     line-height: 30px;
     color: #fff;
+
+    .recipes__iframe {
+        border: 0px;
+    }
 }
