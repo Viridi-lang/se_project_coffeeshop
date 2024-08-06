@@ -65,7 +65,35 @@
                     </div>
                     </div>
                 </section>
-                <section id="reservation" class="Reservation"></section>
+                <section id="reservation" class="Reservation">
+                    <h2 class="reservation__title">Book a Table</h2>
+                    <form class="reversation__form">
+                        <fieldset class="form__fieldset"
+                        <label for="name-input" class="form__label">
+                            Name *
+                            <input required id="name-input" type="text" class="form__input" placeholder="Name Surname">
+                        </label>
+                        <label for="guestnumber-input" class="form__label">
+                            Name of Guests *
+                            <input required id="guestnumber-input" type="number" class="form__input"
+                            min="1" max="8" placeholder="1-8">
+                        </label>
+                        <label for="datetime-input" class="form__label">
+                            Date & Time *
+                            <input required id="datetime-input" type="datetime-local" class="form__input">
+                        </label>
+                        <label for="email-input" class="form__label">
+                            Your email *
+                            <input required id="email-input" type="email" class="form__input" placeholder="email@email.com">
+                        </label>
+                    </fieldset>
+                    <button class="form__button">Book a Table</button>
+                    <label for="" class="form__label form__label_type_checkbox">
+                        <input required type="checkbox" class="form__checkbox" />
+                        I agree with the terms of use.
+                    </label>
+                    </form>
+                </section>
                 <section id="menu" class="Menu"></section>
                 <section id="contacts" class="Contacts"></section>
             </main>
