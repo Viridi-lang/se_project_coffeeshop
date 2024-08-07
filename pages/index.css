@@ -198,6 +198,7 @@
         padding: 20px 0;
         color: #fff;
         background-color: #1878DC;
+        margin-bottom: 32px;
     }
 
     .form__button:hover {
