@@ -156,6 +156,9 @@
 
     .reservation {
         padding: 100px 0 120px;
+        background-image: url(../images/background_reservation.svg);
+        background-color: #d9e7ff;
+        background-size: cover;
     }
 
     .reservation__title {
@@ -169,6 +172,7 @@
 
     .form {
         max-width: 385px;
+        margin:auto;
     }
 
     .form__fieldset {
@@ -192,6 +196,14 @@
         width: 100%;
         border: none;
         padding: 20px 0;
+        color: #fff;
+        background-color: #1878DC;
+    }
+
+    .form__button:hover {
+        transition: 0.7s;
+        background-color: #3f96f3;
+
     }
 
     .form_checkbox {
@@ -204,4 +216,8 @@
         display: flex;
         gap: 12px;
         justify-content: center;
+    }
+
+    * {
+        box-sizing: border-box;
     }
