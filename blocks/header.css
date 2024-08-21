@@ -15,7 +15,7 @@
     z-index: 1;
     max-width: 550px;
     top: 148px;
-    right: 48px;
+    right: 5px;
 }
 
 .header__title {
@@ -43,7 +43,6 @@
     font-family: "Noto Serif";
     font-style: italic;
     font-weight: normal;
-    font-size: 60px;
     line-height: 72px;
 
 }

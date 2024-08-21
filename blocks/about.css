@@ -28,7 +28,7 @@
 .about__title {
   margin: 0px;
   max-width: 251px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -68,9 +68,4 @@
 
 .about__paragraph {
   margin: 0px;
-}
-
-.about__content > 
-.about__paragraph {
-  margin-left: 20px;
 }
