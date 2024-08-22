@@ -1,65 +1,65 @@
 .header {
-    padding: 30px 80px 40px;
-    min-height: 720px;
-    max-height: 800px;
-    height: 100vh;
-    background-image: url(../images/background_header.svg);
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    position: relative;
+  padding: 30px 80px 40px;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  background-image: url(../images/background_header.svg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
 }
 
 .header__image {
-    position: absolute;
-    z-index: 1;
-    max-width: 550px;
-    top: 148px;
-    right: 5px;
+  position: absolute;
+  z-index: -1;
+  max-width: 550px;
+  top: 148px;
+  right: 5px;
 }
 
 .header__title {
-    max-width: 729px;
-    font-size: 60px;
-    line-height: 70px;
-    margin: 183px 0 0;
-    letter-spacing: -0.6px;
-    font-weight: 500;
+  max-width: 729px;
+  font-size: 60px;
+  line-height: 70px;
+  margin: 183px 0 0;
+  letter-spacing: -0.6px;
+  font-weight: 500;
 }
 
 .header__description {
-    max-width: 683px;
-    font-size: 20px;
-    line-height: 30px;
-    margin: 28px 0 0;
-    font-family: "Noto Serif";
-    font-style: normal;
-    font-weight: normal;
+  max-width: 683px;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 28px 0 0;
+  font-family: "Noto Serif", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
 }
 
 .header__span-accent {
-    display: block;
-    color: #3f96f3;
-    font-family: "Noto Serif";
-    font-style: italic;
-    font-weight: normal;
-    line-height: 72px;
-
+  display: block;
+  color: #3f96f3;
+  font-family: "Noto Serif",Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 72px;
 }
 
 .header__footer {
-    display: flex;
-    justify-content: space-between;
-    margin-top: auto;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #838383;
-    align-items: end;
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  align-items: end;
 }
 
 .header__paragraph {
-    margin: 0;
+  margin: 0;
 }

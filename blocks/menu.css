@@ -1,45 +1,44 @@
 .menu {
-    padding: 100px 0 100px;
-    background-color: #fff;
-    background-image: url(../images/background_menu.svg);
-    background-size: cover;
-    width: 100%;
-    background-position: center;
+  padding: 100px 0 100px;
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-size: cover;
+  width: 100%;
+  background-position: center;
 }
 
 .menu__title {
-    display: block;
-    margin: 0 auto;
-    font-family: "Inter";
-    font-style:normal;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
-    max-width: 780px;
-    padding-bottom: 24px;
-    text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 780px;
+  text-align: center;
 }
 
 .menu__subtitle {
-    display: block;
-    margin: 0 auto;
-    font-family: "Noto Serif";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    max-width: 780px;
-    padding-top: 24px;
-    padding-bottom: 50px;
-    text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-family: "Noto Serif"Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 780px;
+  padding-top: 24px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 .menu__cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 100px;
-    padding: 0;
-    margin: 0;
-    list-style-type:none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
