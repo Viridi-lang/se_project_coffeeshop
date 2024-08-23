@@ -13,7 +13,8 @@
   font-size: 44px;
   line-height: 52px;
   color: #fff;
-  margin: 100px 0 24px 80px;
+  max-width: 580px;
+  margin: 0 0 24px;
 }
 
 .recipes__subtitle {
@@ -23,7 +24,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #fff;
-  margin: 24px 0 80px 80px;
+  margin: 24px 0 80px;
   max-width: 438px;
 }
 
@@ -31,7 +32,6 @@
   display: flex;
   gap: 40px;
   justify-content: center;
-  margin-top: 80px;
 }
 
 .recipes__video-caption {
@@ -43,7 +43,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #fff;
-  margin: 24px 0 215px;
+  margin: 24px 0 0;
 }
 
 .recipes__iframe {

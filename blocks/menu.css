@@ -22,7 +22,7 @@
 .menu__subtitle {
   display: block;
   margin: 0 auto;
-  font-family: "Noto Serif"Arial, Helvetica, sans-serif;
+  font-family: "Noto Serif", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
