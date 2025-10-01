@@ -1,16 +1,21 @@
-# Triple Peaks Coffee Shop
+☕ Coffee Shop Website
 
-This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief.
+A responsive coffee shop landing page built with HTML, CSS, and JavaScript. This project was designed to practice front-end fundamentals: clean structure, styling consistency, and debugging for cross-browser compatibility.
 
-## Project features
+✨ Features
+	•	Semantic HTML structure for accessibility and clarity
+	•	Responsive CSS layout (flexbox/grid) for desktop and mobile
+	•	JavaScript interactivity for simple dynamic elements
+	•	Debugged and tested across multiple browsers
+	•	Managed with GitHub version control (commits and branches)
 
-- Semantic HTML5
-- Flexbox
-- Positioning
-- Flat BEM file structure
-- A custom form
-- CSS animation and transform
+🛠️ Tech Stack
+	•	HTML5
+	•	CSS3 (flexbox, grid, media queries)
+	•	JavaScript (basic DOM manipulation)
+	•	Git & GitHub
 
-## Plan on improving the project
-
-Add your ideas here :)
+📚 What I Learned
+	•	Structuring reusable, maintainable CSS
+	•	Debugging responsive layouts
+	•	Practicing GitHub workflows (commits, branching, issue tracking)
